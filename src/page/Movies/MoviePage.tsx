@@ -1,8 +1,11 @@
 import { useParams } from "react-router-dom";
 import MovieData from "../../MovieData.json";
 import { Container, display } from "@mui/system";
-import { Button } from "@mui/material";
+import { Link } from "react-router-dom";
 
+import { Button } from "@mui/material";
+import "./MoviePage.css";
+import img from "../../assets/image.png";
 function MoviePage() {
   const params = useParams();
   let name = params.name;
@@ -56,8 +59,61 @@ function MoviePage() {
             </div>
           </div>
         </div>
+        <div style={{ display: "flex" }}>
+          <img
+            style={{ width: "200px", margin: "2px" }}
+            src={movie.url}
+            alt={movie.title}
+          />
+          <iframe
+            style={{ height: "299px", width: "60%", margin: "2px" }}
+            src={movie?.video}
+          ></iframe>
+          <div style={{ display: "flex", flexDirection: "column" }}>
+            <div
+              style={{
+                backgroundColor: "#3a3a3a",
+                width: "170px",
+                height: "50%",
+                margin: "2px",
+                display: "flex",
+                alignItems: "center",
+                justifyContent: "center",
+              }}
+            >
+              <img
+                src={img}
+                alt="Icon"
+                style={{ width: "50px", height: "50px" }}
+              />
+            </div>
+            <div
+              style={{
+                backgroundColor: "#3a3a3a",
+                width: "170px",
+                height: "50%",
+                margin: "2px",
+                display: "flex",
+                alignItems: "center",
+                justifyContent: "center",
+              }}
+            >
+              <img
+                src={img}
+                alt="Icon"
+                style={{ width: "50px", height: "50px" }}
+              />
+            </div>
+          </div>
+        </div>
+        {/* Movie Info */}
         <div>
-          <img style={{ width: "200px" }} src={movie.url} alt={movie.title} />
+          {/* <h2>Movie Info</h2> */}
+          <p>{movie?.info}</p>
+          <hr />
+          <p>
+            Director: <Link to={`/actor/${movie?.actor}`}>{movie?.actor}</Link>
+          </p>
         </div>
       </Container>
     </>

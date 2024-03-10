@@ -6,6 +6,7 @@ import {
   Typography,
   Button,
   Avatar,
+  Link,
 } from "@mui/material";
 import { yellow } from "@mui/material/colors";
 
@@ -27,7 +28,9 @@ function Header() {
             component="div"
             sx={{ flexGrow: 1, fontSize: "24px", color: "gold" }}
           >
-            IMDB
+            <Link sx={{ color: "gold", textDecoration: "none" }} href="/">
+              IMDB
+            </Link>
           </Typography>
         </Toolbar>
       </AppBar>
