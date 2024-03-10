@@ -5,15 +5,15 @@ import { Button } from "@mui/material";
 
 function MoviePage() {
   const params = useParams();
-  let id: any = params.id;
+  let name = params.name;
 
-  console.log(id);
+  console.log(name);
 
   let movie = null;
 
-  // Find the movie with the given id
+  // Find the movie with the given name
   for (let i = 0; i < MovieData.length; i++) {
-    if (MovieData[i].id == id) {
+    if (MovieData[i].title === name) {
       movie = MovieData[i];
       console.log(movie);
       break;

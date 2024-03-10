@@ -34,7 +34,7 @@ function Homepage() {
             {movieData.map((movie) => (
               <Link
                 key={movie.id}
-                to={`/movie/${movie.id}`}
+                to={`/movie/${movie.title}`}
                 style={{ textDecoration: "none", color: "#000" }}
               >
                 <div className="movie-container">
@@ -58,27 +58,49 @@ function Homepage() {
       <br />
       <Container style={{ maxWidth: "1000px" }}>
         <p>born some day</p>
-        <div style={{ display: "flex", justifyContent: "center" }}>
+        <div
+          style={{
+            display: "flex",
+            justifyContent: "center",
+
+            gap: "20px",
+            padding: "20px",
+          }}
+        >
           {actorData.map((actor) => (
-            <div
+            <Link
               key={actor.id}
-              style={{
-                margin: "10px",
-                overflow: "hidden",
-                whiteSpace: "nowrap",
-              }}
+              to={`/actor/${actor.name}`}
+              style={{ textDecoration: "none", color: "#000" }}
             >
-              <div
-                style={{
-                  border: "2px solid white",
-                  backgroundColor: "#292929",
-                }}
-              >
-                <div style={{ backgroundColor: "#292929", padding: "10px" }}>
-                  <p style={{ fontSize: "12px", margin: "0" }}>{actor.name}</p>
+              <div key={actor.id}>
+                <div
+                  style={{
+                    border: "2px solid white",
+                    backgroundColor: "#292929",
+                    borderRadius: "50%",
+                    width: "150px",
+                    height: "150px",
+                    overflow: "hidden",
+                  }}
+                >
+                  <img
+                    src={actor.img}
+                    alt={actor.name}
+                    style={{
+                      width: "100%",
+                      height: "100%",
+                      objectFit: "cover",
+                    }}
+                  />
+                </div>
+                <div style={{ padding: "10px", textAlign: "center" }}>
+                  <p style={{ fontSize: "12px", margin: "0", color: "white" }}>
+                    {actor.name}
+                  </p>
                 </div>
               </div>
-            </div>
+            </Link>
           ))}
         </div>
       </Container>

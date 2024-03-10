@@ -1,27 +1,50 @@
 [
     {
         "id":1,
-        "name":"Hailee Steinfeld",
-        "img":""
+        "name":"Margo Harshman",
+        "img":"https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Margo_Harshman.jpg/220px-Margo_Harshman.jpg",
+        "age":"38",
+        "info":"Margo wasborn in San Diego, California, and lived in La Costa, California, until she was 12, where she attended La Costa Heights Elementary School. She currently lives in Orange County, California, and resides with her parents and three older siblings. She began acting at the  of two and since then has been in many theatrical productions and TV commercials. She can be seen in the television series Even Stevens (2000) on the Disney channel.",
+        "born":"March 4, 1986"
     },
     {
         "id":2,
-        "name":"Rita Moreno",
-        "img":""
+        "name":"Catherine O'Hara",
+        "img":"https://cdn.britannica.com/27/221827-050-9A33E9F7/Canadian-actress-comedian-writer-Catherine-Ohara-2020.jpg",
+        "age":"70",
+        "info":"Canadian actress, writer, and comedian, Catherine O'Hara gained recognition as one of the original cast members on the Canadian television sketch comedy show SCTV (1976). On the series, she impersonated the likes of Lucille Ball, Tammy Faye Bakker, Gilda Radner, Katharine Hepburn, and Brooke Shields. O'Hara stayed with the show for its entirety (1976-1984). She went on to devote her talents to several films directed by Tim Burton, including Beetlejuice (1988), The Nightmare Before Christmas (1993) and later",
+        "born":"March 4, 1954"
     },
     {
         "id":3,
-        "name":"Gabriel Basso",
-        "img":""
+        "name":"Patricia Heaton",
+        "img":"https://upload.wikimedia.org/wikipedia/commons/b/ba/PatriciaHeaton2021.png",
+        "age":"66",
+        "info":"While studying acting in New York with drama teacher William Esper, Heaton made her Broadway debut in the gospel musical Don't Get God Started.She and her fellow students then formed Stage Three, an acting company that produced plays Off-Broadway. They took one production, The Johnstown Vindicator to Los Angeles, where Heaton's performance caught the eyes of casting directors. Consequently, Heaton portrayed the producer/daughter in the television series Room for Two (1992). Her additional televisio",
+        "born":"March 4, 1958"
     },
     {
         "id":4,
-        "name":"courtney Henggeler",
-        "img":""
+        "name":"Park Min-Young",
+        "img":"https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Park_Minyoung_2022_3.png/800px-Park_Minyoung_2022_3.png",
+        "age":"38",
+        "info":"Park Min-Young was bor on 4 March 1986 in Seoul, South Korea. She is an actress, known for Seven Day Queen (2017), The Good the Bad the Weird (2008) and Sungkyunkwan Scandal (2010).",
+        "born":"March 4, 1986"
     },
     {
         "id":5,
-        "name":"Donna Mills",
-        "img":""
+        "name":"Patsy Kensit",
+        "img":"https://upload.wikimedia.org/wikipedia/commons/1/1f/Patsy_Kensit_BAFTA.jpg",
+        "age":"56",
+        "info":"Patsy started acting at 4 as the daughter of Robert Redford and Mia Farrow in The Great Gatsby and continued to study acting and working during school hoidays. In 1973 she was in the television productions of For the Love of Ada and King Arthur and at 8 she spent 9 months in Russia with Elizabeth Taylor filming The Bluebird then on her return to London worked on television serials The Foundation, Gemma Shore, Luna and the American serial Pollyanna. In 1993 she made her debut with the RSC in",
+        "born":"March 4, 1968"
+    },
+    {
+        "id":6,
+        "name":"Christine Baumgartner",
+        "img":"https://pagesix.com/wp-content/uploads/sites/3/2024/01/christine-baumgartner-attends-2nd-annual-12791309.jpg",
+        "age":"55",
+        "info":"Christine Baumgartner was born on 4 March 1974. She was previously married to Kevin Costner.",
+        "born":"March 4, 1974"
     }
 ]

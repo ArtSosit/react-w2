@@ -9,8 +9,8 @@ import ActorPage from "./page/Actor/ActorPage";
 function App() {
   const routers = createBrowserRouter([
     { path: "/", element: <HomePage /> },
-    { path: "/movie/:id", element: <MoviePage /> },
-    { path: "/Actor", element: <ActorPage /> },
+    { path: "/movie/:name", element: <MoviePage /> },
+    { path: "/Actor/:name", element: <ActorPage /> },
   ]);
 
   return (
