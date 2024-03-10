@@ -1,0 +1,62 @@
+[
+    {
+        "id": 1,
+        "title": "Spider-Man: Into the Spider-Verse",
+        "rating": 8.4,
+        "releaseYear": 2018,
+        "runtime": "1h 57min",
+        "cast": ["Tim Robbins", "Morgan Freeman"]
+        ,"url": "https://m.media-amazon.com/images/M/MV5BMjMwNDkxMTgzOF5BMl5BanBnXkFtZTgwNTkwNTQ3NjM@._V1_FMjpg_UX1000_.jpg"
+        ,"info": "Description 1"
+      },
+      {
+        "id": 2,
+        "title": "Reacher",
+        "rating": 8.1,
+        "releaseYear": 2022,
+        "runtime": "50min",
+        "cast": ["Tim Robbins", "Morgan Freeman"]
+        ,"url": "https://m.media-amazon.com/images/M/MV5BOWRiZjYwZjUtYmIwMy00ZDUzLTk2NjktZmJkZjRkNjU0MDE3XkEyXkFqcGdeQXVyMDM2NDM2MQ@@._V1_FMjpg_UX1000_.jpg"
+        ,"info": "Description 2"
+      },
+      {
+        "id": 3,
+        "title": "Rick and Morty",
+        "rating": 8.1,
+        "releaseYear": 2013,
+        "runtime": "",
+        "cast": ["", " "]
+        ,"url": "https://m.media-amazon.com/images/M/MV5BZjRjOTFkOTktZWUzMi00YzMyLThkMmYtMjEwNmQyNzliYTNmXkEyXkFqcGdeQXVyNzQ1ODk3MTQ@._V1_FMjpg_UX1000_.jpg"
+        ,"info": "Description 3"
+      },
+      {
+        "id": 4,
+        "title": "Spider-Man: Across the Spider-Verse",
+        "rating": 8.6,
+        "releaseYear": 2023,
+        "runtime": "",
+        "cast": ["", " "]
+        ,"url": "https://m.media-amazon.com/images/M/MV5BMzI0NmVkMjEtYmY4MS00ZDMxLTlkZmEtMzU4MDQxYTMzMjU2XkEyXkFqcGdeQXVyMzQ0MzA0NTM@._V1_FMjpg_UX1000_.jpg"
+        ,"info": "Description 4"
+      },
+      {
+        "id": 5,
+        "title": "The Last of Us",
+        "rating": 8.8,
+        "releaseYear": 2023,
+        "runtime": "",
+        "cast": ["", " "]
+        ,"url": "https://m.media-amazon.com/images/M/MV5BZGUzYTI3M2EtZmM0Yy00NGUyLWI4ODEtN2Q3ZGJlYzhhZjU3XkEyXkFqcGdeQXVyNTM0OTY1OQ@@._V1_FMjpg_UX1000_.jpg"
+        ,"info": "Description 5"
+      },
+      {
+        "id": 6,
+        "title": "Oppenheimer",
+        "rating": 8.4,
+        "releaseYear": 2023,
+        "runtime": "3h",
+        "cast": ["", " "]
+        ,"url": "https://m.media-amazon.com/images/M/MV5BMDBmYTZjNjUtN2M1MS00MTQ2LTk2ODgtNzc2M2QyZGE5NTVjXkEyXkFqcGdeQXVyNzAwMjU2MTY@._V1_FMjpg_UX1000_.jpg"
+        ,"info": "Description 6"
+      }
+]

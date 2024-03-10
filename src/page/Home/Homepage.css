@@ -1,0 +1,35 @@
+.movie-container {
+  max-width: 150px;
+  margin: 10px;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.movie-card {
+  border: 2px solid white;
+  background-color: #292929;
+  height: 250px; 
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.movie-image {
+  object-fit: cover;
+  height: 100%;
+}
+
+.movie-details {
+  background-color: #292929;
+  padding: 10px;
+  height: 25px;
+  color: #fff;
+  font-size: 14px;
+}
+
+.movie-title,
+.movie-rating {
+  margin: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
