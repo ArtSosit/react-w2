@@ -26,6 +26,13 @@ function MoviePage() {
   return (
     <>
       <Container style={{ maxWidth: "1000px" }}>
+        <Button
+          sx={{ color: "gold" }}
+          variant="text"
+          onClick={() => history.back()}
+        >
+          Back
+        </Button>
         <div
           style={{
             display: "flex",
@@ -112,7 +119,13 @@ function MoviePage() {
           <p>{movie?.info}</p>
           <hr />
           <p>
-            Director: <Link to={`/actor/${movie?.actor}`}>{movie?.actor}</Link>
+            Director:{" "}
+            <Link
+              style={{ textDecoration: "none", color: "#2986cc" }}
+              to={`/actor/${movie?.actor}`}
+            >
+              {movie?.actor}
+            </Link>
           </p>
         </div>
       </Container>

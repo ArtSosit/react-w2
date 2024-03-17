@@ -3,6 +3,7 @@ import React, { useState, useEffect } from "react";
 import axios from "axios";
 import { Link } from "react-router-dom";
 import "./homepage.css"; // Import CSS file
+import { Button } from "@mui/material";
 
 function Homepage() {
   const [movieData, setMovieData] = useState([]);
@@ -46,8 +47,20 @@ function Homepage() {
                     />
                   </div>
                   <div className="movie-details">
-                    <p className="movie-title">{movie.title}</p>
                     <p className="movie-rating">Rating: {movie.rating}</p>
+                    <p className="movie-title">{movie.title}</p>
+                    <br />
+                    <Button
+                      style={{
+                        width: "100%",
+                        height: "30px",
+                        backgroundColor: "#3a3a3a",
+                        color: "#2986cc",
+                        fontSize: "10px",
+                      }}
+                    >
+                      + watchlist
+                    </Button>
                   </div>
                 </div>
               </Link>

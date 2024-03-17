@@ -1,4 +1,9 @@
 :root {
-  background-color: #232323;
+  background-color: #000000;
   color: rgb(255, 255, 255);
 }
+body {
+  font-family: "Arial", sans-serif;
+}
+
+/* หรือเลือกแบบอักษรอื่น ๆ ตามที่คุณต้องการ */

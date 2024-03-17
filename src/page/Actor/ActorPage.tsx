@@ -22,6 +22,13 @@ function ActorPage() {
   return (
     <>
       <Container style={{ maxWidth: "1000px" }}>
+        <Button
+          sx={{ color: "gold" }}
+          variant="text"
+          onClick={() => history.back()}
+        >
+          Back
+        </Button>
         <div
           style={{
             backgroundColor: "black",
